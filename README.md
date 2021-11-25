@@ -11,7 +11,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Live Demo
 
-[In progress live link](https://rolandm99.github.io/Leaderboard/)
+[In progress live link](https://rolandm99.github.io/Leaderboard/dist)
 
 
 ## Getting Started
