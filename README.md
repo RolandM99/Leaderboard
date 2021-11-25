@@ -1,6 +1,6 @@
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service
 
-![screenshot](./screenshot.PNG)
+![screenshot](./screenshot.png)
 
 ## Built With
 
@@ -17,10 +17,9 @@ The leaderboard website displays scores submitted by different players. It also 
 To get a local copy up and running follow these simple example steps.
 
 1. First clone the project with the command git clone https://github.com/RolandM99/Leaderboard.git
-2. Then run the command `npm install` in your terminal to open the project in your browser
+2. Then run the command `npm install` in your terminal to install all package
 3. run `npm start` for starting the project in your browser
-4. `npm run test` for testing the App
-5. [optional] You can even fork the project
+4. [optional] You can even fork the project
 
 
 👤 **Authour:** **Roland Manful Mweze**
