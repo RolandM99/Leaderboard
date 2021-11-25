@@ -1,1 +1,41 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Webpack Boilerplate</title><script defer="defer" src="main.js"></script></head><body><h1>Hello Webpack</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard by Roland</title>
+<script defer src="main.js"></script></head>
+<body>
+    <div class="title">
+        <h1>Leaderboard</h1>
+    </div>
+    <main class="container-board">
+       <section class="recent-flex" id="score-list">
+           <div class="recent-title">
+              <h2 class="recent">Recent Scores</h2>
+              <button type="reset" id="reset-btn">Refresh</button>
+           </div>
+               <ul class="my-list">
+                   <li class="list">Player 1</li>
+                   <li class="list">Player 2</li>
+                   <li class="list">Player 3</li>
+                   <li class="list">Player 4</li>
+               </ul>
+       </section>
+       <section class="add-score">
+           <h2 class="score-title">Add your score</h2>
+           <div class="score">
+               <form action="#" method="post" class="score-flex">
+                   <input type="text" name="name" id="name-player" placeholder="Your name" required>
+                   <input type="text" name="score" id="score-player" placeholder="Your score" required>
+                   <div class="btn">
+                    <button type="submit" id="submit-btn">Submit</button>
+                   </div>
+               </form>
+           </div>
+       </section>
+    </main>
+    <footer class="my-footer">Powered with &#10084; by Roland M</footer>
+</body>
+</html>
