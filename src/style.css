@@ -1,3 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
 body {
-  background-color: aqua;
+  font-family: 'Happy Monkey', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-flex {
+  display: flex;
+  flex-direction: column;
+  margin-left: -26px;
+  width: 100%;
+}
+
+h1 {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.recent-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  gap: 20px;
+}
+
+#reset-btn {
+  border: 2px solid black;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.recent {
+  margin-top: -1px;
+  width: 220px;
+  margin-left: 50px;
+}
+
+.my-list {
+  margin-left: 50px;
+  border: 2px solid black;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  width: auto;
+  margin-left: -40px;
+  height: 40px;
+  list-style: none;
+  padding-right: 0;
+}
+
+.list:nth-child(2n +1) {
+  background: #9b9898;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.score-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-left: 25px;
+  margin-right: -25px;
+}
+
+.score-title {
+  margin-left: 25px;
+}
+
+input {
+  font-family: 'Happy Monkey', cursive;
+  height: 30px;
+  border: 2px solid black;
+  margin-right: 50px;
+}
+
+.btn {
+  display: flex;
+  justify-content: right;
+  margin-right: 50px;
+}
+
+#submit-btn {
+  font-family: 'Happy Monkey', cursive;
+  border: 2px solid black;
+  display: flex;
+  width: 70px;
+  height: 30px;
+  padding-top: 6px;
+  justify-content: center;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  background-color: #9b9898;
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-flex {
+    margin-top: 70px;
+    width: 100%;
+  }
+
+  .score-flex {
+    width: 100%;
+  }
+
+  .add-score {
+    margin-top: 50px;
+  }
+
+  .container-board {
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
