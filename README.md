@@ -1,3 +1,5 @@
+#  Leaderboard
+
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service
 
 ![screenshot](./screenshot.png)
@@ -9,7 +11,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Live Demo
 
-[live link will be implemented later]()
+[In progress live link](https://rolandm99.github.io/Leaderboard/)
 
 
 ## Getting Started
