@@ -1,3 +1,3 @@
-# setUp-webpack-boilerplate
+# Leaderboard
 
-In this project we build a simple and powerful webpack boilerplate, which we can later use as a starting point in all your JS projects
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service
