@@ -1,6 +1,6 @@
 import './style.css';
 
-const generateUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/VKJp33RwkCKuvxrLsteg/scores/';
+const generateUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/LjiNOIIuSeYlmLRspLTH/scores/';
 
 const playerTable = document.querySelector('#score-list > ul');
 const refreshBtn = document.getElementById('reset-btn');
