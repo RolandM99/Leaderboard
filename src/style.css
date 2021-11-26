@@ -27,6 +27,7 @@ h1 {
 }
 
 #reset-btn {
+  cursor: pointer;
   border: 2px solid black;
   font-family: 'Happy Monkey', cursive;
 }
@@ -45,15 +46,16 @@ h1 {
   flex-direction: column;
 }
 
-.list {
+li {
+  display: flex;
   width: auto;
+  padding: 12px 15px 0 15px;
   margin-left: -40px;
-  height: 40px;
+  height: 30px;
   list-style: none;
-  padding-right: 0;
 }
 
-.list:nth-child(2n +1) {
+li:nth-child(2n +1) {
   background: #9b9898;
 }
 
@@ -90,6 +92,8 @@ input {
 }
 
 #submit-btn {
+  margin-bottom: 40px;
+  cursor: pointer;
   font-family: 'Happy Monkey', cursive;
   border: 2px solid black;
   display: flex;
@@ -100,7 +104,6 @@ input {
 }
 
 footer {
-  position: fixed;
   width: 100%;
   background-color: #9b9898;
   display: flex;
@@ -111,6 +114,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  h1 {
+    margin-left: 120px;
+  }
+
   .recent-flex {
     margin-top: 70px;
     width: 100%;
@@ -127,6 +134,7 @@ footer {
   .container-board {
     margin-top: -30px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 32% 30%;
+    justify-content: center;
   }
 }
