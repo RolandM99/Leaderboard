@@ -49,7 +49,7 @@ h1 {
 li {
   display: flex;
   width: auto;
-  padding: 12px 15px 0 15px;
+  padding: 10px 15px 8px 25px;
   margin-left: -40px;
   height: 30px;
   list-style: none;
@@ -103,7 +103,23 @@ input {
   justify-content: center;
 }
 
+.fas.fa-user-circle {
+  font-size: 1.8em;
+  width: 50px;
+}
+
+.container-board {
+  overflow: hidden;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  background-color: rgb(170, 99, 236);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 footer {
+  position: static;
   width: 100%;
   background-color: #9b9898;
   display: flex;
@@ -132,9 +148,14 @@ footer {
   }
 
   .container-board {
-    margin-top: -30px;
+    margin-bottom: 80px;
+    width: 70%;
+    margin-left: 135px;
+    margin-right: 270px;
+    background-color: rgb(170, 99, 236);
+    margin-top: -10px;
     display: grid;
-    grid-template-columns: 32% 30%;
+    grid-template-columns: 55% 40%;
     justify-content: center;
   }
 }

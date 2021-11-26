@@ -29,7 +29,7 @@ const getMyScores = async (link) => {
 
 const addScoreOnTable = (player, score) => {
   const listElement = document.createElement('li');
-  listElement.textContent = `${player} : ${score}`;
+  listElement.innerHTML = `<a class="player-list"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;&nbsp;${player} : ${score}</a>`;
   playerTable.appendChild(listElement);
 };
 
