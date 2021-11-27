@@ -1,6 +1,6 @@
 import './style.css';
 
-const generateUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/VKJp33RwkCKuvxrLsteg/scores/';
+const generateUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/LjiNOIIuSeYlmLRspLTH/scores/';
 
 const playerTable = document.querySelector('#score-list > ul');
 const refreshBtn = document.getElementById('reset-btn');
@@ -29,7 +29,7 @@ const getMyScores = async (link) => {
 
 const addScoreOnTable = (player, score) => {
   const listElement = document.createElement('li');
-  listElement.textContent = `${player} : ${score}`;
+  listElement.innerHTML = `<a class="player-list"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;&nbsp;${player} : ${score}</a>`;
   playerTable.appendChild(listElement);
 };
 
